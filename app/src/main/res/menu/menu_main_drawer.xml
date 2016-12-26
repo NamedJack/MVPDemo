@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="biaoti1">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/github_hot_repo"
+                    android:icon="@drawable/ic_login"
+                    android:title="xuanyi"/>
+                <item
+                    android:id="@+id/github_hot_coder"
+                    android:icon="@drawable/ic_login"
+                    android:title="xuaner"/>
+                <item
+                    android:id="@+id/github_hot_trend"
+                    android:icon="@drawable/ic_login"
+                    android:title="xuansan"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="biaoti2">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/arsenal_my_repo"
+                    android:icon="@drawable/ic_login"
+                    android:title="xuansi"/>
+                <item
+                    android:id="@+id/arsenal_recommend"
+                    android:icon="@drawable/ic_login"
+                    android:title="xuanwu"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:title="biaotisan">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/tips_daily"
+                    android:icon="@drawable/ic_login"
+                    android:title="xuan6"/>
+                <item
+                    android:id="@+id/tips_share"
+                    android:icon="@drawable/ic_login"
+                    android:title="xuan7"/>
+            </group>
+        </menu>
+    </item>
+</menu>

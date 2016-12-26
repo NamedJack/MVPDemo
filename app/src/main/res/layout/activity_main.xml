@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.ultrapower.sc.mapbaidu.view.MainActivity">
+        <include layout="@layout/layout_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"></include>
+        <include layout="@layout/layout_drawer"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"></include>
+</LinearLayout>
